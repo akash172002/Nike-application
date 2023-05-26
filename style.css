@@ -74,7 +74,7 @@ nav {
 }
 
 .slider {
-  background: url(./img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
 }
