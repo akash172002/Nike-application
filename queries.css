@@ -66,11 +66,15 @@
     width: 100%;
     padding: 0;
     display: flex;
-    gap: 1rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
     position: relative;
+    top: 0;
+    gap: 0.1rem;
+  }
+  .productButton {
+    margin-top: -1rem;
   }
 
   .productImg {
@@ -84,6 +88,10 @@
 
   .productPrice {
     font-size: 2rem;
+  }
+  .productDesc {
+    text-align: center;
+    margin: 0rem 1rem;
   }
 
   .payment {
@@ -101,16 +109,11 @@
 
   .gallery {
     flex-direction: column;
-    gap: none;
-    padding: 2rem;
   }
 
   .galleryItem {
+    width: 100%;
     padding: 2rem;
-    gap: 2rem;
-  }
-  .galleryTitle {
-    margin-bottom: 1rem;
   }
 
   .newSeason {
